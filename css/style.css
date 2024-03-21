@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+    font-family:Avenir ;
+    src: url(../Avenir\ Next\ LT\ Pro\ Regular.otf);
+}
+body{
+    background-image: url('../img/bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Avenir;
+    font-weight: bold;
+}
+.cricket{
+    position: absolute;
+    width: 11%;
+    right: 4vw;
+    top: 49vw;
+}
+.pagecontent{
+    width: 90vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 11vw 0 11vw;
+    font-style: italic;
+}
+.yellow-color{
+    color: yellow;
+    font-size: 3.8vw;
+}
+.info{
+    color: white;
+    font-size: 3.8vw;
+}
+.mb{
+    margin-bottom: 7vw;
+}
