@@ -10,8 +10,9 @@ body{
     background-image: url('../img/bg.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    font-family: Avenir;
+    /* font-family: Avenir; */
     font-weight: bold;
+    font-family: 'Helvetica bold';
 }
 .subTitle{
     position: absolute;
@@ -36,7 +37,31 @@ body{
 .info{
     color: white;
     font-size: 3.8vw;
+    background-image: url('../img/text-bg1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 4vw;
+    font-family: 'Helvetica bold';
 }
 .mb{
     margin-bottom: 7vw;
+}
+.mtb{
+    margin-bottom: 2vw;
+}
+
+.bottom-text{
+    color: white;
+    font-size: 3.8vw;
+    background-image: url('../img/text-bg2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    padding: 4vw;
+    font-family: 'Helvetica bold';
+}
+
+button{
+    border: none;
+    outline: none;
+    background: none;
 }
