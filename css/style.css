@@ -1,40 +1,46 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-@font-face{
-    font-family:Avenir ;
+
+@font-face {
+    font-family: Avenir;
     src: url(../Avenir\ Next\ LT\ Pro\ Regular.otf);
 }
-body{
+
+body {
     background-image: url('../img/bg.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    /* font-family: Avenir; */
     font-weight: bold;
     font-family: 'Helvetica bold';
 }
-.subTitle{
+
+.subTitle {
     position: absolute;
     top: 60vw;
 }
-.join-btn{
+
+.join-btn {
     width: 60%;
     margin: -11px auto;
 
 }
-.pagecontent{
+
+.pagecontent {
     width: 90vw;
     margin: 0 auto;
     text-align: center;
     padding: 11vw 0 11vw;
     font-style: italic;
 }
-.yellow-color{
+
+.yellow-color {
     color: yellow;
     font-size: 3.8vw;
 }
-.info{
+
+.info {
     color: white;
     font-size: 3.8vw;
     background-image: url('../img/text-bg1.png');
@@ -43,25 +49,41 @@ body{
     padding: 4vw;
     font-family: 'Helvetica bold';
 }
-.mb{
+
+.mb {
     margin-bottom: 7vw;
 }
-.mtb{
+
+.mtb {
     margin-bottom: 2vw;
 }
 
-.bottom-text{
+.bottom-text {
     color: white;
     font-size: 3.8vw;
     background-image: url('../img/text-bg2.png');
     background-size: 100% 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     padding: 4vw;
     font-family: 'Helvetica bold';
 }
 
-button{
+button {
     border: none;
     outline: none;
     background: none;
+}
+
+footer {
+    font-family: 'Helvetica bold';
+    color: white;
+    margin: 0 auto;
+}
+
+.note {
+    text-align: center;
+    color: yellow;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    /* font-size: 5vw; */
 }

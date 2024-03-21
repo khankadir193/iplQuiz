@@ -15,7 +15,7 @@
         <img src="img/Subtitle.png" alt=""  width="100%">
     </div>
     <div class="join-btn">
-        <button>
+        <button onclick="openLink()">
             <img src="img/Join-btn.png" alt=""  width="100%">
         </button>
     </div>
@@ -38,5 +38,15 @@
    </div>
   
   </div>
+
+  <p  class="note">All rights reserved by StreamKar</p>
+
+  <script>
+    const openLink = ()=>{
+        const id = '608707368';
+        const URL = `http://www.kktv1.com/m/?roomid=${id}`;
+        window.location.href = URL;
+    }
+    </script>
 </body>
 </html>
